@@ -24,13 +24,13 @@
 .wrapper {
 	width: 480px;
 	margin: auto;
-	padding: 60px 40px;
+	padding: 60px 40px 45px;
 	background-color: white;
 }
 .par{
 	font-family: 'Pathway Gothic One', sans-serif;
 	color: #263555;
-	font-size: 17px;
+	font-size: 25px;
 	text-transform: uppercase;
 	margin-bottom: 35px;
 }
@@ -52,6 +52,7 @@
 	font-family: Arial, sans-serif;
 	font-size: 12px;
 	margin-bottom: 20px;
+	line-height: 17px;
 }
 /*.block{*/
 	/*display: inline-block;*/
@@ -90,4 +91,5 @@
 	margin-bottom: 20px;
 	font-weight: lighter;
 	font-size: 14px;
+	line-height: 19px;
 }
