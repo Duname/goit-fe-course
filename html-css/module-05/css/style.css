@@ -43,13 +43,13 @@
 }
 
 .header-bottom{
-	height: 600px;
+	height: 540px;
 	background-image: url("slide4.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 .header-bottom:hover{
-	background-image: url("32.png");
+	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('slide4.png');;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
@@ -133,4 +133,52 @@
 	color: #515151;
 	text-align: center;
 	text-transform: uppercase;
+	margin-bottom: 35px;
 }
+.bord{
+	height: 10px;
+	width: 160px;
+	position: absolute;
+	background: #1abc9c;
+	top: auto;
+	left: 44.5%;
+}
+
+.buy1, .buy2, .buy3, .buy4{
+	display: inline-block;
+	height: 320px;
+	width: 255px;
+	margin-top: 80px;
+}
+
+.buy1{
+	background-image: url("1man.png");
+	margin-left: 140px;
+}
+.buy2{
+	background-image: url("2wom.png");
+	margin-left: 25px;
+}
+.buy3{
+	background-image: url("3man.png");
+	margin-left: 25px;
+}
+.buy4{
+	background-image: url("4wom.png");
+	margin-left: 25px;
+}
+
+.buy1:hover{
+	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('1man.png');
+}
+.buy2:hover{
+	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('2wom.png');
+}
+.buy3:hover{
+	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('3man.png');
+}
+.buy4:hover{
+	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('4wom.png');
+}
+
+
