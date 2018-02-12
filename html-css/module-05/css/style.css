@@ -7,8 +7,11 @@
 	list-style: none;
 	text-decoration: none;
 }
+
+
 .header-top{
 	height: 92px;
+	min-width: 1000px;
 	background: #ffffff;
 	padding-top: 10px;
 }
@@ -19,7 +22,7 @@
 }
 .nav{
 	text-align: center;
-	margin-left: 650px;
+	margin-left: 600px;
 }
 .nav-item{
 	display: inline-block;
@@ -39,14 +42,17 @@
 }
 .header-bottom{
 	height: 540px;
+	min-width: 1000px;
 	background-image: url("slide4.png");
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: center;
 }
 .header-bottom:hover{
 	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('slide4.png');;
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: center;
 }
 .button1, .button2{
 	display: inline-block;
@@ -98,11 +104,13 @@
 }
 .main{
 	height: 680px;
+	min-width: 1000px;
 	background: #e9f0fd;
 	padding-top: 100px;
 }
 .footer{
 	height: 88px;
+	min-width: 1000px;
 	background: #323232;
 	padding-top: 40px;
 }
@@ -347,19 +355,19 @@
 .clock4{
 	left: 81.33%;
 }
-.item:hover > .clock1{
+.item1:hover > .clock1{
 	background: #1abc9c;
 	background-image: url("clock.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.item:hover > .heart1{
+.item1:hover > .heart1{
 	background: #1abc9c;
 	background-image: url("heart.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.item:hover > .arrow1{
+.item1:hover > .arrow1{
 	background: #1abc9c;
 	background-image: url("arrow.png");
 	background-repeat: no-repeat;
