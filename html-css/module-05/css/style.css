@@ -12,7 +12,6 @@
 	background: #ffffff;
 	padding-top: 10px;
 }
-
 .logo-img{
 	position: relative;
 	top: 25px;
@@ -22,12 +21,10 @@
 	text-align: center;
 	margin-left: 650px;
 }
-
 .nav-item{
 	display: inline-block;
 	position: relative;
 }
-
 .nav-link{
 	display: block;
 	font-family: 'Open Sans', sans-serif;
@@ -37,11 +34,9 @@
 	text-transform: uppercase;
 	margin-left: 40px;
 }
-
 .nav-link:hover{
 	color: #39c5a9;
 }
-
 .header-bottom{
 	height: 540px;
 	background-image: url("slide4.png");
@@ -67,7 +62,6 @@
 .button1:hover, .button2:hover{
 	background: rgba(85, 166, 144, 0.4)
 }
-
 .button1{
 	bottom: 430px;
 	right: 1120px;
@@ -76,15 +70,12 @@
 	bottom: 430px;
 	right: 250px;
 }
-
 .button1:before{
 	content: '<';
 }
 .button2:after{
 	content: '>';
 }
-
-
 .title{
 	font-family: 'Roboto', sans-serif;
 	font-size: 55px;
@@ -94,7 +85,6 @@
 	text-align: center;
 	vertical-align: center;
 	margin-top: 170px;
-
 }
 .sub-title{
 	font-family: 'Roboto', sans-serif;
@@ -125,7 +115,6 @@
 .othercolor{
 	color: #46bfa9;
 }
-
 .collections{
 	font-family: 'Roboto', sans-serif;
 	font-size: 40px;
@@ -143,17 +132,15 @@
 	top: auto;
 	left: 44.5%;
 }
-
 .buy1, .buy2, .buy3, .buy4{
 	display: inline-block;
 	height: 320px;
 	width: 255px;
 	margin-top: 80px;
 }
-
 .buy1{
 	background-image: url("1man.png");
-	margin-left: 140px;
+	margin-left: 155px;
 }
 .buy2{
 	background-image: url("2wom.png");
@@ -167,7 +154,6 @@
 	background-image: url("4wom.png");
 	margin-left: 25px;
 }
-
 .buy1:hover{
 	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('1man.png');
 }
@@ -180,5 +166,209 @@
 .buy4:hover{
 	background-image:linear-gradient(rgba(113, 113, 113, 0.58), rgba(95, 95, 95, 0.78)),url('4wom.png');
 }
+.stuff{
+	display: inline-block;
+	position: absolute;
+	height: 40px;
+	width: 200px;
+	background: #323232;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-top: 12px;
+	padding-left: 10px;
+	top: 146.2%
+}
+.price{
+	display: inline-block;
+	position: absolute;
+	height: 40px;
+	width: 55px;
+	background: #8c8c8c;
+	color: #ffffff;
+	font-weight: 400;
+	padding-top: 12px;
+	padding-left: 15px;
+	top: 146.2%
+}
+.price1{
+	left: 24.68%;
+}
+.price2{
+	left: 44.4%;
+}
+.price3{
+	left: 64.1%;
+}
+.price4{
+	left: 83.8%;
+}
+.buy1:hover > .stuff1{
+	background: #1abc9c;
+}
+.buy1:hover > .price1{
+	background: #7fd9c7;
+}
+.buy2:hover > .stuff2{
+	background: #1abc9c;
+}
+.buy2:hover > .price2{
+	background: #7fd9c7;
+}
+.buy3:hover > .stuff3{
+	background: #1abc9c;
+}
+.buy3:hover > .price3{
+	background: #7fd9c7;
+}
+.buy4:hover > .stuff4{
+	background: #1abc9c;
+}
+.buy4:hover > .price4{
+	background: #7fd9c7;
+}
+.item{
+	display: none;
+}
+
+.heart{
+	display: inline-block;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background-image: url("heart.png");
+	border: 1px solid #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 122%;
+}
+.arrow{
+	display: inline-block;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background-image: url("arrow.png");
+	border: 1px solid #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 122%;
+}
+.clock{
+	display: inline-block;
+	position: absolute;
+	height: 50px;
+	width: 50px;
+	background-image: url("clock.png");
+	border: 1px solid #ffffff;
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 122%;
+}
+.cart{
+	display: inline-block;
+	position: absolute;
+	height: 50px;
+	width: 160px;
+	padding-left: 20px;
+	background-image: url("pushcart.png");
+	background-color: #323232;
+	border: 1px solid #ffffff;
+	background-repeat: no-repeat;
+	background-position: left;
+	top: 130%;
+	padding-top: 17px;
+}
+.cart-text{
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+}
+.buy1:hover > .item{
+	display: inline;
+}
+.buy2:hover > .item{
+	display: inline;
+}
+.buy3:hover > .item{
+	display: inline;
+}
+.buy4:hover > .item{
+	display: inline;
+}
+
+.cart1{
+	left: 13.8%;
+}
+.heart1{
+	left: 13.8%;
+}
+.arrow1{
+	left: 17.55%;
+}
+.clock1{
+	left: 21.33%;
+}
+.cart2{
+	left: 33.8%;
+}
+.heart2{
+	left: 33.8%;
+}
+.arrow2{
+	left: 37.55%;
+}
+.clock2{
+	left: 41.33%;
+}
+.cart3{
+	left: 53.8%;
+}
+.heart3{
+	left: 53.8%;
+}
+.arrow3{
+	left: 57.55%;
+}
+.clock3{
+	left: 61.33%;
+}
+.cart4{
+	left: 73.8%;
+}
+.heart4{
+	left: 73.8%;
+}
+.arrow4{
+	left: 77.55%;
+}
+.clock4{
+	left: 81.33%;
+}
+.item:hover > .clock1{
+	background: #1abc9c;
+	background-image: url("clock.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.item:hover > .heart1{
+	background: #1abc9c;
+	background-image: url("heart.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.item:hover > .arrow1{
+	background: #1abc9c;
+	background-image: url("arrow.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+
+
 
 
