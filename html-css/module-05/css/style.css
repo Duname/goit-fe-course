@@ -10,10 +10,13 @@
 .header-top{
 	height: 92px;
 	background: #ffffff;
+	padding-top: 10px;
 }
 
 .logo-img{
-	display: inline-block;
+	position: relative;
+	top: 25px;
+	left: 220px;
 }
 .nav{
 	text-align: center;
@@ -50,6 +53,38 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+.button1, .button2{
+	display: inline-block;
+	position: absolute;
+	height: 75px;
+	width: 75px;
+	background: rgb(26, 188, 156);
+	font-size: 40px;
+	color: #ffffff;
+	padding-top: 10px;
+	text-align: center;
+}
+.button1:hover, .button2:hover{
+	background: rgba(85, 166, 144, 0.4)
+}
+
+.button1{
+	bottom: 430px;
+	right: 1120px;
+}
+.button2{
+	bottom: 430px;
+	right: 250px;
+}
+
+.button1:before{
+	content: '<';
+}
+.button2:after{
+	content: '>';
+}
+
+
 .title{
 	font-family: 'Roboto', sans-serif;
 	font-size: 55px;
@@ -71,9 +106,10 @@
 	margin-top: 35px;
 	margin-left: 380px;
 }
-.fast-buy{
+.main{
 	height: 680px;
 	background: #e9f0fd;
+	padding-top: 100px;
 }
 .footer{
 	height: 88px;
@@ -88,4 +124,13 @@
 }
 .othercolor{
 	color: #46bfa9;
+}
+
+.collections{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #515151;
+	text-align: center;
+	text-transform: uppercase;
 }
