@@ -8,7 +8,6 @@
 	text-decoration: none;
 }
 
-
 .header-top{
 	height: 92px;
 	min-width: 1000px;
@@ -41,8 +40,8 @@
 	color: #39c5a9;
 }
 .header-bottom{
-	height: 540px;
-	min-width: 1000px;
+	height: 600px;
+	min-width: 1600px;
 	background-image: url("slide4.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -125,6 +124,7 @@
 }
 .collections{
 	font-family: 'Roboto', sans-serif;
+	position: relative;
 	font-size: 40px;
 	font-weight: 700;
 	color: #515151;
@@ -132,7 +132,9 @@
 	text-transform: uppercase;
 	margin-bottom: 35px;
 }
-.bord{
+.collections:after{
+	content: "";
+	display: block;
 	height: 10px;
 	width: 160px;
 	position: absolute;
@@ -140,6 +142,15 @@
 	top: auto;
 	left: 44.5%;
 }
+
+/*.bord{*/
+	/*height: 10px;*/
+	/*width: 160px;*/
+	/*position: absolute;*/
+	/*background: #1abc9c;*/
+	/*top: auto;*/
+	/*left: 44.5%;*/
+/*}*/
 .buy1, .buy2, .buy3, .buy4{
 	display: inline-block;
 	height: 320px;
