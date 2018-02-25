@@ -235,10 +235,11 @@ body{
   border: 1px solid #ffffff;
 	padding-left: 10px;
 	margin-top: 10px;
+	padding-top: 10px;
 }
 .cart-img{
 	display: inline-block;
-	margin: 10px 0 0;
+	vertical-align: middle;
 }
 .cart-text{
 	display: inline-block;
@@ -247,7 +248,9 @@ body{
   font-size: 15px;
   font-weight: 400;
 	color: #ffffff;
+	vertical-align: middle;
 	margin-left: 15px;
+
 }
 .buy-container-1:hover .other-item-1{
 	display: block;
