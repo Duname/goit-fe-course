@@ -9,7 +9,7 @@
 }
 
 body{
-	background-color: #200c07;
+	background-color: #000000;
 }
 .wrapper{
 	margin: 0 auto;
@@ -55,7 +55,6 @@ body{
 .nav-link:hover{
 	color: #39c5a9;
 }
-
 .button1, .button2{
 	display: inline-block;
 	position: absolute;
@@ -115,7 +114,6 @@ body{
 	width: 1600px;
 	height: 680px;
 }
-
 .othercolor{
 	color: #46bfa9;
 }
@@ -139,7 +137,6 @@ body{
 	top: 75px;
 	left: 44.5%;
 }
-
 .buy-container-1{
 	display: inline-block;
 	position: relative;
@@ -148,11 +145,9 @@ body{
 	height: 322px;
 	width: 255px;
 }
-
 .buy-container-1:hover > .content{
 	display: block;
 }
-
 .buy-container-1:hover::after{
 	display: block;
 	content: '';
@@ -177,7 +172,6 @@ body{
 	bottom: 0;
 	right: 55px;
 }
-
 .price-1{
 	display: inline-block;
 	position: absolute;
@@ -242,12 +236,10 @@ body{
 	padding-left: 10px;
 	margin-top: 10px;
 }
-
 .cart-img{
 	display: inline-block;
 	margin: 10px 0 0;
 }
-
 .cart-text{
 	display: inline-block;
 	text-transform: uppercase;
@@ -278,11 +270,9 @@ body{
 	height: 322px;
 	width: 255px;
 }
-
 .buy-container-2:hover > .content{
 	display: block;
 }
-
 .buy-container-2:hover::after{
 	display: block;
 	content: '';
@@ -307,7 +297,6 @@ body{
 	bottom: 0;
 	right: 55px;
 }
-
 .price-2{
 	display: inline-block;
 	position: absolute;
@@ -349,7 +338,6 @@ body{
 .clock-2:hover{
 	background-color: #1abc9c;
 }
-
 .buy-container-3{
 	display: inline-block;
 	position: relative;
@@ -358,11 +346,9 @@ body{
 	height: 322px;
 	width: 255px;
 }
-
 .buy-container-3:hover > .content{
 	display: block;
 }
-
 .buy-container-3:hover::after{
 	display: block;
 	content: '';
@@ -387,7 +373,6 @@ body{
 	bottom: 0;
 	right: 55px;
 }
-
 .price-3{
 	display: inline-block;
 	position: absolute;
@@ -429,7 +414,6 @@ body{
 .clock-3:hover{
 	background-color: #1abc9c;
 }
-
 .buy-container-4{
 	display: inline-block;
 	position: relative;
@@ -438,11 +422,9 @@ body{
 	height: 322px;
 	width: 255px;
 }
-
 .buy-container-4:hover > .content{
 	display: block;
 }
-
 .buy-container-4:hover::after{
 	display: block;
 	content: '';
@@ -467,7 +449,6 @@ body{
 	bottom: 0;
 	right: 55px;
 }
-
 .price-4{
 	display: inline-block;
 	position: absolute;
@@ -509,7 +490,6 @@ body{
 .clock-4:hover{
 	background-color: #1abc9c;
 }
-
 .footer{
 	width: 1600px;
 	background: #323232;
