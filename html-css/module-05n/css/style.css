@@ -71,11 +71,11 @@ body{
 	background: rgba(85, 166, 144, 0.4)
 }
 .button1{
-	bottom: 53%;
+	bottom: 51%;
 	left: 275px;
 }
 .button2{
-	bottom: 53%;
+	bottom: 51%;
 	right: 95px;
 }
 .button1:before{
@@ -140,7 +140,7 @@ body{
 	left: 44.5%;
 }
 
-.buy-container{
+.buy-container-1{
 	position: relative;
 	left: 245px;
 	top: 80px;
@@ -148,11 +148,11 @@ body{
 	width: 255px;
 }
 
-.buy-container:hover > .content{
+.buy-container-1:hover > .content{
 	display: block;
 }
 
-.buy-container:hover::after{
+.buy-container-1:hover::after{
 	display: block;
 	content: '';
 	width: 230px;
@@ -190,12 +190,78 @@ body{
 	bottom: 0;
 	left: 200px;
 }
-.price-1:hover{
+.buy-container-1:hover .price-1{
 	background: #7fd9c7;
 }
-.staff-name-1:hover{
+.buy-container-1:hover .staff-name-1{
 	background: #1abc9c;
 }
+.other-item-1{
+	/*display: none;*/
+	width: 230px;
+	height: 260px;
+}
+.heart{
+	background-color: #000000;
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ffffff;
+	padding-top: 13px;
+	padding-left: 11px;
+	bottom: 185px;
+	left: 45px;
+}
+.arrow{
+	background-color: #000000;
+  display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ffffff;
+	padding-top: 13px;
+	padding-left: 11px;
+	bottom: 185px;
+	left: 100px;
+}
+.clock{
+	background-color: #000000;
+	display: inline-block;
+	position: absolute;
+  height: 50px;
+	width: 50px;
+  border: 1px solid #ffffff;
+	padding-top: 12px;
+	padding-left: 12px;
+	bottom: 185px;
+	left: 155px;
+}
+.cart{
+	background-color: #000000;
+	display: inline-block;
+  position: absolute;
+  height: 50px;
+  width: 160px;
+  border: 1px solid #ffffff;
+	padding-top: 13px;
+	padding-left: 11px;
+	bottom: 125px;
+	left: 45px;
+}
+
+.cart-text{
+	display: inline-block;
+	text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+	color: #ffffff;
+  text-align: center;
+}
+
+
+
 
 
 
