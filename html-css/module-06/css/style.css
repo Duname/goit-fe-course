@@ -9,19 +9,24 @@
 }
 
 .wrapper{
-	width: 1920px;
+	width: 100%;
 	background-color: #ffffff;
-	padding: 40px 360px;
+	padding-top: 40px;
 }
 nav{
+	flex-basis: 60%;
 	display: flex;
 	justify-content: space-between;
 	max-width: 900px;
 	margin: 0 auto;
 }
-.nav-item{
-	margin: 20px;
+.header, .main, .footer{
+	width: 1200px;
+	margin: 0 auto;
 }
+/*.nav-item{*/
+	/*margin: 20px;*/
+/*}*/
 
 .nav-link{
 	font-family: 'Open Sans', sans-serif;
@@ -33,6 +38,8 @@ nav{
 .nav-link:hover{
 	color: #f38181;
 	border-bottom: 2px solid #f38181;
+	transition-duration: 200ms;
+	transition-timing-function: linear;
 }
 .title{
 	margin-top: 150px;
@@ -71,4 +78,17 @@ nav{
 .proposal{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.proposal-paragraph{
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.proposal-text{
+	color: #999999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
 }
