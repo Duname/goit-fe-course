@@ -16,7 +16,11 @@
 nav{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.nav-item{
+	margin: 20px;
 }
 
 .nav-link{
@@ -63,4 +67,8 @@ nav{
 .proposal-box{
 	width: 300px;
 	display: inline-block;
+}
+.proposal{
+	display: flex;
+	justify-content: space-between;
 }
