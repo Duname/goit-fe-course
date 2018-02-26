@@ -9,21 +9,16 @@
 }
 
 body{
-	width: 1920px;
+	/*width: 1920px;*/
 	background-color: #ffffff;
-	padding: 40px 360px;
+	/*padding: 40px 360px;*/
 }
 .nav{
-	display: inline-flex;
-}
-.nav-item{
-	display: inline-flex;
-	justify-items: flex-end;
-	align-items: flex-end;
-	align-content: flex-end;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .nav-link{
-	display: flex;
 	align-content: space-between;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -33,4 +28,20 @@ body{
 }
 .nav-link:hover{
 	color: #f38181;
+	border-bottom: 2px solid #f38181;
+}
+.title{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 22px;
+	color: #333333;
+}
+.sub-title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #333333;
 }
