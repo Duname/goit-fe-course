@@ -8,18 +8,18 @@
 	text-decoration: none;
 }
 
-body{
-	/*width: 1920px;*/
+.wrapper{
+	width: 1920px;
 	background-color: #ffffff;
-	/*padding: 40px 360px;*/
+	padding: 40px 360px;
 }
-.nav{
+nav{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+
 .nav-link{
-	align-content: space-between;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
@@ -31,7 +31,7 @@ body{
 	border-bottom: 2px solid #f38181;
 }
 .title{
-	margin-top: 50px;
+	margin-top: 150px;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 24px;
 	text-align: center;
@@ -45,4 +45,22 @@ body{
 	text-transform: uppercase;
 	text-align: center;
 	color: #333333;
+}
+.sub-title:after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 60px;
+	position: absolute;
+	background: #f38181;;
+	top: 375px;
+	left: 930px;
+}
+.proposal-list{
+	height: 80px;
+	width: 360px;
+}
+.proposal-box{
+	width: 300px;
+	display: inline-block;
 }
