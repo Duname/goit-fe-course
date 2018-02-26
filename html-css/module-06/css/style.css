@@ -31,6 +31,7 @@ body{
 	border-bottom: 2px solid #f38181;
 }
 .title{
+	margin-top: 50px;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 24px;
 	text-align: center;
