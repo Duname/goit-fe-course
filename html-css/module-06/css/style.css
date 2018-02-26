@@ -7,3 +7,30 @@
 	list-style: none;
 	text-decoration: none;
 }
+
+body{
+	width: 1920px;
+	background-color: #ffffff;
+	padding: 40px 360px;
+}
+.nav{
+	display: inline-flex;
+}
+.nav-item{
+	display: inline-flex;
+	justify-items: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+}
+.nav-link{
+	display: flex;
+	align-content: space-between;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #95e1d3;
+	text-transform: uppercase;
+}
+.nav-link:hover{
+	color: #f38181;
+}
