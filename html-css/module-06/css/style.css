@@ -59,7 +59,7 @@ nav{
 	color: #333333;
 }
 .sub-title:after{
-	content: "";
+	content: '';
 	display: block;
 	height: 3px;
 	width: 60px;
@@ -186,46 +186,48 @@ nav{
 	right: 0;
 	top: 0;
 }
-.other-item{
-display: none;
-position: absolute;
-width: 232px;
+.other-item{display: none;
+	position: absolute;
+	width: 232px;
 }
 .other-item-1{
-left: 195px;
-bottom: -570px;
+	left: 75px;
+	bottom: 200px;
+	z-index: 1;
 }
 .other-item-2{
-left: 605px;
-bottom: -570px;
+	left: 75px;
+	bottom: 200px;
+	z-index: 1;
 }
 .other-item-3{
-left: 1010px;
-bottom: -570px;
+	left: 75px;
+	bottom: 200px;
+	z-index: 1;
 }
 .facebook, .twitter, .pinterest, .instagram {
-display: inline-block;
-width: 55px;
-height: 55px;
-vertical-align: top;
-padding-top: 13px;
-padding-left: 15px;
-background-color: #fce38a;
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	vertical-align: top;
+	padding-top: 13px;
+	padding-left: 15px;
+	background-color: #fce38a;
 }
 .facebook{
 padding-left: 22px;
 }
 .facebook-1:hover, .twitter-1:hover, .pinterest-1:hover, .instagram-1:hover, .facebook-2:hover, .twitter-2:hover, .pinterest-2:hover, .instagram-2:hover, .facebook-3:hover, .twitter-3:hover, .pinterest-3:hover, .instagram-3:hover{
-background-color: #95e1d3;
+	background-color: #95e1d3;
 }
 .our-team-1:hover .other-item-1{
-display: block;
+	display: block;
 }
 .our-team-2:hover .other-item-2{
-display: block;
+	display: block;
 }
 .our-team-3:hover .other-item-3{
-display: block;
+	display: block;
 }
 .caption {
 	margin-top: 30px;
@@ -233,7 +235,7 @@ display: block;
 .team-names {
 	font-size: 14px;
 	text-align: center;
-	font-family: "Montserrat regular", sans-serif;
+	font-family: 'Montserrat regular', sans-serif;
 	color: #333333;
 	text-transform: uppercase;
 	line-height: 1.2;
@@ -242,7 +244,7 @@ display: block;
 .position {
 	font-size: 15px;
 	text-align: center;
-	font-family: "Roboto LightItalic", sans-serif;
+	font-family: 'Roboto LightItalic', sans-serif;
 	color: #999999;
 	font-style: italic;
 	line-height: 1.6;
