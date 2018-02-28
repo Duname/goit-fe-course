@@ -139,9 +139,6 @@ body{
 	height: 322px;
 	width: 255px;
 }
-.buy-container-1:hover > .content{
-	display: block;
-}
 .buy-container-1:hover::after{
 	display: block;
 	content: '';
@@ -272,9 +269,6 @@ body{
 	height: 322px;
 	width: 255px;
 }
-.buy-container-2:hover > .content{
-	display: block;
-}
 .buy-container-2:hover::after{
 	display: block;
 	content: '';
@@ -323,9 +317,6 @@ body{
 	top: 80px;
 	height: 322px;
 	width: 255px;
-}
-.buy-container-3:hover > .content{
-	display: block;
 }
 .buy-container-3:hover::after{
 	display: block;
