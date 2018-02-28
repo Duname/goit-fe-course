@@ -38,6 +38,7 @@ nav{
 	color: #f38181;
 	transition-duration: 200ms;
 	transition-timing-function: linear;
+	border-bottom: 3px solid #f38181;
 }
 .title{
 	font-family: 'Kaushan Script', cursive;
