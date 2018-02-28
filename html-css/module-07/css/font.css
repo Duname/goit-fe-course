@@ -1,0 +1,24 @@
+@font-face{
+	font-family: 'Montserrat';
+	src: url('../font/Montserrat-Regular/Montserrat-Regular.woff2') format('woff2'), url('../font/Montserrat-Regular/Montserrat-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../font/Montserrat-Bold/Montserrat-Bold.woff2') format('woff2'), url('../font/Montserrat-Bold/Montserrat-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Droid Serif';
+	src: url('../font/Droid Serif Italic V1/Droid Serif Italic V1.woff2') format('woff2'),  url('../font/Droid Serif Italic V1/Droid Serif Italic V1.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../font/Roboto Slab Light/Roboto Slab Light.woff2') format('woff2'),  url('../font/Roboto Slab Light/Roboto Slab Light.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}

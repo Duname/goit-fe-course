@@ -36,7 +36,6 @@ nav{
 }
 .nav-link:hover{
 	color: #f38181;
-	border-bottom: 2px solid #f38181;
 	transition-duration: 200ms;
 	transition-timing-function: linear;
 }
