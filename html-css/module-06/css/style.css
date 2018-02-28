@@ -227,3 +227,24 @@ display: block;
 .our-team-3:hover .other-item-3{
 display: block;
 }
+.caption {
+	margin-top: 30px;
+}
+.team-names {
+	font-size: 14px;
+	text-align: center;
+	font-family: "Montserrat regular", sans-serif;
+	color: #333333;
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+.position {
+	font-size: 15px;
+	text-align: center;
+	font-family: "Roboto LightItalic", sans-serif;
+	color: #999999;
+	font-style: italic;
+	line-height: 1.6;
+	padding-bottom: 50px;
+}
