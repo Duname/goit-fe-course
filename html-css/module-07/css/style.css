@@ -167,9 +167,6 @@
 .input-style:invalid{
 	background: #fdd;
 }
-.footer-top, .form{
-	z-index: 2;
-}
 
 
 
