@@ -15,7 +15,7 @@
 	padding: 1.25rem 0 8.75rem;
 	background-color: rgba(0, 0, 0, 0.8);
 }
-img {
+img{
 	display: block;
 	max-width: 100%;
 	height: auto;
@@ -74,23 +74,23 @@ img {
 	color: #ffffff;
 	padding-bottom: 1.25rem;
 }
-.container {
+.container{
 	min-width: 20rem;
 	max-width: 70rem;
 	padding: 0 0.625rem;
 	margin: auto;
 }
-.main {
+.main{
 	padding: 4.375rem 0 3.75rem;
 }
-.title-main {
+.title-main{
 	font-family: 'Montserrat Bold', sans-serif;
 	font-size: 1.375rem;
 	color: #333;
 	margin-bottom: 1.25rem;
 	text-align: center;
 }
-.box-article {
+.box-article{
 	text-align: center;
 }
 .img-box{
@@ -99,10 +99,10 @@ img {
 	position: relative;
 	margin: 0 auto 1.25rem;
 }
-.img {
+.img{
 	display: inline-block;
 }
-.img-icon {
+.img-icon{
 	display: block;
 	width: 2.5rem;
 	height: 2.5rem;
@@ -113,35 +113,35 @@ img {
 	right: 0;
 	z-index: 1;
 }
-.tv {
+.tv{
 	background-color: #ff4e50;
 	padding: 0.4375rem;
 }
-.chem {
+.chem{
 	background-color: #ffa507;
 	padding: 0.4375rem 0.625rem;
 }
-.coffee {
+.coffee{
 	background-color: #1cd7ad;
 	padding: 0.4375rem;
 }
-.plane {
+.plane{
 	background-color: #4e73db;
 	padding: 0.4375rem 0.4375rem;
 }
-.article-title {
+.article-title{
 	font-family: 'Montserrat Bold', sans-serif;
 	font-size: 0.875rem;
 	color: #333;
 	margin-bottom: 1.25rem;
 }
-.article {
+.article{
 	margin-bottom: 1.25rem;
 }
-.article:last-child {
+.article:last-child{
 	margin-bottom: 0;
 }
-.article-text {
+.article-text{
 	font-family: 'Roboto Light', sans-serif;
 	font-size: 0.875rem;
 	color: #666;
@@ -166,7 +166,7 @@ img {
 	font-size: 0.875rem;
 	font-weight: bold;
 }
-@media (min-width: 48rem) {
+@media (min-width: 48rem){
 	.header-top{
 		display: flex;
 		flex-direction: row;
@@ -180,32 +180,39 @@ img {
 		padding-top: 7.5rem;
 		font-size: 3.25rem;
 	}
-	.main {
+	.main{
 		padding-bottom: 2.5rem;
 	}
-	.title-main {
+	.title-main{
 		margin-bottom: 2.25rem;
 	}
-	.box-article {
+	.box-article{
 		display: flex;
 		justify-content: space-evenly;
 		flex-wrap: wrap;
 	}
-	.article {
+	.article{
 		flex-basis: 35%;
 	}
-	.article:nth-child(2n+2) {
+	.article:nth-child(2n+2){
 		margin-bottom: 0;
 	}
-	.order {
+	.order{
 		order: -1;
 	}
 }
-@media (min-width: 60rem){
-	.main {
+@media (min-width: 64rem){
+	.header-top{
+		padding-top: 0.5rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.main{
 		padding-bottom: 4.6875rem;
 	}
-	.article {
+	.article{
 		flex-wrap: nowrap;
 		flex-basis: 25%;
 		margin-bottom: 0;
