@@ -162,10 +162,10 @@
 	justify-content: center;
 }
 .input-style:valid{
-	background: #dfd;
+	outline: #dfd;
 }
 .input-style:invalid{
-	background: #fdd;
+	outline: #fdd;
 }
 
 
