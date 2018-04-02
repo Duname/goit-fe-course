@@ -38,6 +38,7 @@ img{
 }
 .logo{
 	padding: 7.5rem 0 2.5rem;
+	text-align: -webkit-center;
 }
 .header-top{
 	margin-bottom: 2.375rem;
