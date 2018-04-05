@@ -171,23 +171,13 @@ figure{
 }
 .team-box__photo:hover:after {
 	content: '';
-	display: block;
+	display: flex;
 	width: 100%;
 	height: 100%;
 	position: absolute;
 }
 .team-box__container{
-	display: flex;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.team-box__photo > .team-box__container {
-	display: block;
-}
-.team-box__container{
-	display: flex;
+	display: none;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -222,7 +212,6 @@ figure{
 	align-items: center;
 	width: 23.75rem;
 	height: 29.375rem;
-	background-image: linear-gradient(180deg, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%);
 }
 .team-box__icon-box:last-child{
 	margin-right: 0;
