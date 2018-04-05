@@ -4,6 +4,10 @@ a{
 ul{
 	list-style: none;
 }
+figure{
+	margin: 0;
+	padding: 0;
+}
 .header-wrapper{
 	width: 100%;
 	margin: auto;
@@ -15,7 +19,7 @@ ul{
 	padding: 1.875rem 0 14.375rem;
 }
 .container{
-	max-width: 64rem;
+	max-width: 76.25rem;
 	margin: auto;
 }
 .wrapper{
@@ -120,7 +124,7 @@ ul{
 	height: 0.1875rem;
 	background-color: #f38181;
 	top: 4.0625rem;
-	left: 30.25rem;
+	left: 36.25rem;
 }
 .we-work__service{
 	display: flex;
@@ -154,7 +158,7 @@ ul{
 	text-align: center;
 	padding-bottom: 5.625rem;
 }
-.ain-team__our-team{
+.main-team__our-team{
 	display: flex;
 	justify-content: space-between;
 	margin: 5.3125rem 0;
@@ -173,7 +177,7 @@ ul{
 	position: absolute;
 }
 .team-box__container{
-	display: none;
+	display: flex;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -181,6 +185,30 @@ ul{
 }
 .team-box__photo > .team-box__container {
 	display: block;
+}
+.team-box__container{
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.team-box__icon-box{
+	display: flex;
+	width: 3rem;
+	height: 3rem;
+	background-color:#fce38a;
+	text-align: center;
+	padding: 1rem 0 1rem;
+	margin-right: 0.0625rem;
+}
+.team-box__photo:hover > .team-box__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 23.75rem;
+	height: 29.375rem;
+	background-image: linear-gradient(180deg, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%);
 }
 .team-box__photo:hover {
 	transform: translate(-10px, -10px);
@@ -195,14 +223,6 @@ ul{
 	width: 23.75rem;
 	height: 29.375rem;
 	background-image: linear-gradient(180deg, rgba(240, 140, 138, 0.8) 0%, rgba(239, 214, 133, 0.8) 100%);
-}
-.team-box__icon-box{
-	width: 3rem;
-	height: 3rem;
-	background-color:#fce38a;
-	text-align: center;
-	padding: 1rem 0 1rem;
-	margin-right: 0.0625rem;
 }
 .team-box__icon-box:last-child{
 	margin-right: 0;
@@ -275,7 +295,7 @@ ul{
 	font-size: 0.9375rem;
 	text-transform: uppercase;
 	text-align: center;
-	margin-left: -0.3125 rempx;
+	margin-left: -0.3125rem;
 	border: 0.0625rem solid #95e1d3;
 	cursor: pointer;
 }
