@@ -193,7 +193,7 @@ figure{
 	margin-right: 0.0625rem;
 }
 .team-box__photo:hover > .team-box__container{
-	display: flex;
+	display: block;
 	justify-content: center;
 	align-items: center;
 	width: 23.75rem;
