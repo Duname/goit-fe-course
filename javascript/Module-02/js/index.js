@@ -8,7 +8,7 @@ do {
 	const userInputNum = Number(userInput);
 	if (userInput === null) {
 		break;
-	} else if ( Number.isNaN(userInputNum) ) {
+	} else if (Number.isNaN(userInputNum)) {
 		alert('Error! Enter only numbers! Please try again!');
 	} else {
 		numbers.push(userInputNum);
@@ -18,7 +18,7 @@ let total = 0;
 for (const key of numbers) {
 	total += key;
 }
-alert (`Total amount: ${total}`);
+alert(`Total amount: ${total}`);
 console.log(numbers);
 console.log(total);
 
@@ -35,7 +35,7 @@ do {
 	} else if (attempts === 0) {
 		alert('End of Attempts! Account is blocked for 24 hours!');
 		break;
-	} else if ( passwords.includes(userPassword) ) {
+	} else if (passwords.includes(userPassword)) {
 		alert('Welcome!!!');
 		break;
 	} else {
