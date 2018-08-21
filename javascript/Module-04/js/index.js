@@ -4,10 +4,7 @@ const products = {
 	milk: 15,
 	apples: 20,
 	chicken: 50,
-	pork: 80,
-	cheese: 60,
-	tea: 20,
-	candy: 25,
+	cheese: 40,
 };
 function Cashier(name, products) {
 	this.name = name;
