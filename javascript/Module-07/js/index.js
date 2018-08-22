@@ -75,5 +75,3 @@ const paintCards = cards => {
 };
 
 paintCards(posts);
-
-// GIT HUB NA ZALIL!!!
