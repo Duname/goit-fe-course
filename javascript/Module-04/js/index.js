@@ -6,19 +6,20 @@ const products = {
 	chicken: 50,
 	cheese: 40,
 };
+
 function Cashier(name, products) {
 	this.name = name;
 	this.products = products;
 	this.totalPrice = 0;
 	this.customerMoney = 0;
 	this.changeAmount = 0;
-	this.countTotalPrice = function(order) {
+	this.countTotalPrice = function (order) {
 		for (const productKey of Object.keys(order)) {
 			const productCount = order[productKey];
 			this.totalPrice += productCount * this.products[productKey];
 		}
 	};
-	this.getCustomerMoney = function() {
+	this.getCustomerMoney = function () {
 		do {
 			let userInput = prompt(
 				`Total sum of your buying is ${this.totalPrice}`,
@@ -33,15 +34,15 @@ function Cashier(name, products) {
 			}
 		} while (this.customerMoney < this.totalPrice);
 	};
-	this.countChange = function() {
+	this.countChange = function () {
 		this.changeAmount = this.customerMoney - this.totalPrice;
 	};
-	this.reset = function() {
+	this.reset = function () {
 		this.totalPrice = 0;
 		this.customerMoney = 0;
 		this.changeAmount = 0;
 	};
-	this.serve = function(order) {
+	this.serve = function (order) {
 		this.countTotalPrice(order);
 		if (this.getCustomerMoney() !== null) {
 			this.countChange();
@@ -52,6 +53,7 @@ function Cashier(name, products) {
 		this.reset();
 	};
 }
+
 const order = {
 	bread: 2,
 	milk: 2,
