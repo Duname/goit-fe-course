@@ -1,0 +1,83 @@
+.container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	background-color: rgba(29, 44, 102, 0.4);
+	padding: 16px;
+}
+
+.form-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 8px;
+	margin-right: 16px;
+	background-color: #fff;
+}
+
+.outData-container {
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	background-color: #fff;
+}
+
+table, tr, th, td {
+	border: 1px solid #666;
+	border-collapse: collapse;
+	min-width: auto;
+}
+
+th, td {
+	padding: 4px 8px;
+}
+
+.getAllBtn,
+.getByIdBtn,
+.addBtn,
+.delBtn,
+.updateBtn {
+	margin-bottom: 16px;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5%;
+	cursor: pointer;
+	color: #070636;
+	font-weight: 700;
+}
+
+.getAllBtn {
+	background: #76d4d0;
+}
+
+.getByIdBtn {
+	background: #76d4d0;
+}
+
+.addBtn {
+	background: #76d4d0;
+}
+
+.delBtn {
+	background: #76d4d0;
+}
+
+.updateBtn {
+	background: #76d4d0;
+}
+
+.input {
+	margin-bottom: 16px;
+	padding: 8px 16px;
+}
